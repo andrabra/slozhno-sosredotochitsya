@@ -3,29 +3,35 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   max-width: calc(1024px - 40px);
-  min-height: 100vh;
   padding: 20px;
   margin: 0 auto;
 
+  background: url(../images/cover-image-dark.png), var(--bg-color);
+  background-repeat: no-repeat;
   background-position: center;
-  background: url(../images/cover-image-dark.png),
-    lightgray 50% / contain no-repeat;
-  
+  background-size: cover;
   background-attachment: fixed;
 
   font-family: IBM Plex Mono;
+
 }
 
 .header {
+  min-height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-
+  margin-bottom: var(--section-margin-bottom);
   grid-template-areas: 
   ". button ."
-  "title title ."
-  "bot bot bot";
+  "title title title"
+  ". bot bot";
 }
+
+.title-decor{
+  background-color: rgba(255, 0, 112, 1);
+  color: rgba(0, 0, 40, 1);
+}
+
 
 .header__theme-menu{
   grid-area: button;
@@ -35,11 +41,22 @@
 .header__theme-menu-list{
   display: flex;
   flex-direction: row;
-  gap: calc();
+  gap: 10px;
+  list-style-type: none;
+  
 }
 
 .header__title{
-  color:(var(--font-color));
+  color:var(--title-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   grid-area: title;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header__text{
+  grid-area: bot; 
+}
+
+.main{
+  color: var(--font-color);
 }

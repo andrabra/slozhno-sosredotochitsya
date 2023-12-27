@@ -3,7 +3,13 @@
   и их переопределение под различные устройства
 */
 :root {
+  --background-image: url("../images/cover/image-dark.jpg");
+  --bg-color: #000028;
+
   --title-color: #DB00FF;
+  --section-title-color: #FF0070;
   --font-color: #F1B2CE;
+  --section-margin-bottom: 60px; /*desktop*/
+  --accent-color: #FF0070;
   /* Переменные тёмной темы */
 }
