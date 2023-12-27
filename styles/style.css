@@ -22,9 +22,9 @@
   grid-template-rows: repeat(3, 1fr);
 
   grid-template-areas: 
-  ". button .
-  title title .
-  bot bot bot";
+  ". button ."
+  "title title ."
+  "bot bot bot";
 }
 
 .header__theme-menu{
