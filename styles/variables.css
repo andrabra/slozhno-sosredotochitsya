@@ -9,7 +9,11 @@
   --title-color: #DB00FF;
   --section-title-color: #FF0070;
   --font-color: #F1B2CE;
-  --section-margin-bottom: 60px; /*desktop*/
   --accent-color: #FF0070;
+
+
+  
+  --section-margin-bottom: 60px; /*desktop*/
+  
   /* Переменные тёмной темы */
 }
