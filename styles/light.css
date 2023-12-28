@@ -10,18 +10,35 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-light.png);
+
+  --bg-color: #fff1f7;
+
+  --title-color: #ffc2e6;
+  --font-color: #353430;
+  --accent-color: #ff0070;
 }
 
-
 :root.theme-light {
-  /* Переменные светлой темы */    
+  /* Переменные светлой темы */
+  --background-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
+
+  --title-color: #ffc2e6;
+  --font-color: #353430;
+  --accent-color: #ff0070;
 }
 
 /* Остальные стили */
 
 @media (prefers-color-scheme: light) {
-:root {
-      /* Дублируем переменные светлой темы */    
+  :root {
+    /* Дублируем переменные светлой темы */
+    --background-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+
+    --title-color: #ffc2e6;
+    --font-color: #353430;
+    --accent-color: #ff0070;
   }
 }
 

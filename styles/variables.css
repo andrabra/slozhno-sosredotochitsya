@@ -3,16 +3,16 @@
   и их переопределение под различные устройства
 */
 :root {
-  --background-image: url("../images/cover/image-dark.jpg");
+  --background-image: url("../images/cover-image-dark.png");
+  
   --bg-color: #000028;
 
   --title-color: #DB00FF;
-  --section-title-color: #FF0070;
   --font-color: #F1B2CE;
   --accent-color: #FF0070;
 
 
-  
+
   --section-margin-bottom: 60px; /*desktop*/
   
   /* Переменные тёмной темы */
