@@ -4,7 +4,6 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   max-width: calc(1024px - 40px);
 
-
   background-image: var(--background-image);
   background-color: var(--bg-color);
   background-repeat: no-repeat;
@@ -21,9 +20,9 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto 1fr;
   margin-bottom: var(--section-margin-bottom);
-  justify-content: center;
 
-  align-items: flex-start;
+  padding: 20px;
+  justify-items: center;
 }
 
 .title-decor {
@@ -32,8 +31,9 @@
 }
 
 .header__theme-menu {
-  display: flex;
-  place-content: center;
+  /*display: flex;
+  place-content: center;*/
+  
 }
 
 .header__theme-menu-list {
@@ -42,19 +42,57 @@
   gap: 10px;
 }
 
+.header__theme-menu-button {
+  color: var(--accent-color);
+  background-color: transparent;
+  border: none;
+
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: lowercase;
+  padding: 0 13px;
+}
+
+.header__theme-menu-button_type_light {
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button_type_auto {
+}
+
+.header__theme-menu-button_type_dark {
+}
+
 .header__title {
   color: var(--title-color);
-  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  font-size: var(--desktop-font-size);
 
   text-shadow: 4px 4px 0 var(--accent-color);
-  margin-left: -20px;
+  margin-left: -40px;
+  justify-self: start;
 }
 
 .header__text {
-  width: 50%;
+/*поменять на переменную или в медиазапросе*/
 
-  justify-self: end;
+
   align-self: center;
+  justify-self: end;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+
+  margin-right: -20px;
+
 }
 
 .main {
