@@ -52,6 +52,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+
   text-transform: lowercase;
   padding: 0 13px;
 }
@@ -61,6 +62,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--accent-color);
+
 }
 
 .header__theme-menu-button_type_auto {
@@ -85,11 +87,13 @@
   align-self: center;
   justify-self: end;
 
+  font-family: var(--main-font-family);
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
 
+  margin-right: -16px;
 }
 
 .main {

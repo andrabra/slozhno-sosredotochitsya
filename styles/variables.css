@@ -11,10 +11,10 @@
   --font-color: #F1B2CE;
   --accent-color: #FF0070;
 
-
+  --main-font-family: IBM Plex Mono;
 
   --section-margin-bottom: 60px; /*desktop*/
-  
+
   --mobile-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --desktop-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   /* Переменные тёмной темы */
