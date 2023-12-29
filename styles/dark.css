@@ -12,12 +12,16 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   background-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
 
+  --title-color: #DB00FF;
+  --font-color: #F1B2CE;
+  --accent-color: #FF0070;
 }
 
 :root.theme-dark {
   /* Дублируем переменные для тёмной темы */
- 
+
   --background-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
 
