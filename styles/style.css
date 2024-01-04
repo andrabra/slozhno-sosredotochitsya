@@ -55,6 +55,7 @@
 
   text-transform: lowercase;
   padding: 0 13px;
+  height: 26px;
 }
 
 .header__theme-menu-button_type_light {
