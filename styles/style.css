@@ -2,8 +2,8 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  max-width: calc(1024px - 40px);
-
+  max-width: var(--max-width);
+  width: 100%;
   background-image: var(--background-image);
   background-color: var(--bg-color);
   background-repeat: no-repeat;
@@ -407,8 +407,6 @@
   position: relative;
 }
 
-
-
 .footer__title {
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--accent-color);
@@ -417,4 +415,13 @@
   font-style: normal;
   font-weight: 700;
   line-height: 82.5%; /* 129.525px */
+}
+
+@media screen and (max-width: 768px) {
+  :root{
+  --max-width: calc(768px - 40px);
+  }
+  .header__text {
+    width: 364px;
+  }
 }

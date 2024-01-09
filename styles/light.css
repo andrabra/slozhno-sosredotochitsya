@@ -18,7 +18,7 @@
   --accent-color: #ff0070; */
 }
 
-:root.theme-light {
+:root.theme_light {
   /* Переменные светлой темы */
   --background-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
