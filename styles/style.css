@@ -25,6 +25,34 @@
   justify-items: center;
 }
 
+.header__rec {
+  color: var(--accent-color);
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 48px;
+}
+
+.header__rec::after {
+  content: "";
+  background-color: var(--accent-color);
+  position: absolute;
+  top: 8px;
+  right: -20px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 4px var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  border-style: solid solid none none;
+}
+
 .header__theme-menu {
   /*display: flex;
   place-content: center;*/
