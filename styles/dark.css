@@ -19,7 +19,7 @@
   --accent-color: #FF0070;
 }
 
-/* :root.theme-dark {
+:root.theme-dark {
   /* Дублируем переменные для тёмной темы */
 
   --background-image: url("../images/cover-image-dark.png");
@@ -28,7 +28,7 @@
   --title-color: #DB00FF;
   --font-color: #F1B2CE;
   --accent-color: #FF0070;
-} */
+}
 
 /* Остальные стили */
 .header__rec{
