@@ -23,6 +23,30 @@
 
   padding: 20px;
   justify-items: center;
+
+  position: relative;
+}
+
+.decorated-zone::before {
+  width: 25px;
+  height: 25px;
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+.decorated-zone::after {
+  width: 25px;
+  height: 25px;
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
 }
 
 .header__rec {
@@ -36,7 +60,7 @@
   text-transform: uppercase;
   position: absolute;
   top: 20px;
-  right: 48px;
+  right: 30px;
 }
 
 .header__rec::after {
@@ -49,8 +73,42 @@
   height: 9px;
   border-radius: 50%;
   box-shadow: 0px 0px 8px 4px var(--accent-color);
+}
+
+.header__corner {
+  content: "";
+  width: 25px;
+  height: 25px;
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
-  border-style: solid solid none none;
+}
+
+.header__corner::before {
+  content: "";
+  background-color: var(--accent-color);
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 4px var(--accent-color);
+}
+
+.header__corner::after {
+  content: "";
+  background-color: var(--accent-color);
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 4px var(--accent-color);
 }
 
 .header__theme-menu {
@@ -62,6 +120,9 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+.header__theme-menu-item {
 }
 
 .header__theme-menu-button {
@@ -305,31 +366,34 @@
 }
 
 .main__section-pictures-tape {
-  
+
   grid-column: 1 / 2;
   grid-row: 3 / span 4;
 }
 
 .main__section-pictures-books {
-  
+
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
 
 .main__section-pictures-street {
-  
+
   grid-column: 2 / 4;
   grid-row: 4 / 5;
 } */
 
 .footer {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  /* padding: 20px; */
+  position: relative;
 }
+
+
 
 .footer__title {
   color: var(--title-color);
