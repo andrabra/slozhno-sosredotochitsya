@@ -17,7 +17,13 @@
   --title-color: #DB00FF;
   --font-color: #F1B2CE;
   --accent-color: #FF0070;
+
+  .header__rec{
+    display: block;
+  }
 }
+
+
 
 :root.theme-dark {
   /* Дублируем переменные для тёмной темы */
@@ -30,7 +36,7 @@
   --accent-color: #FF0070;
 }
 
+
+
 /* Остальные стили */
-.header__rec{
-  display: block;
-}
+

@@ -40,10 +40,11 @@
     --font-color: #353430;
     --accent-color: #ff0070;
   }
+  .header__rec{
+    display: none;
+  }
 }
 
 
-/* .header__rec{
-  display:none;
-} */
+
 /* Остальные стили */
