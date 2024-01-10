@@ -16,7 +16,7 @@
   --font-color: #f1b2ce;
   --accent-color: #ff0070;
   --main__section-title-color: #ff0070;
-
+  --hover-button: rgba(255, 0, 112, 1);
   .header__rec {
     display: block;
   }
