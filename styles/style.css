@@ -450,7 +450,8 @@
 
 @media screen and (width <= 768px) {
   :root {
-    --max-width: calc(768px - 40px);
+    /* --max-width: calc(768px - 40px); */
+    --max-width: 728px;
   }
   .header__text {
     max-width: 364px;
@@ -492,7 +493,8 @@
 
 @media screen and (width <= 375px) {
   :root {
-    --max-width: calc(355px - 40px);
+    /* --max-width: calc(375px - 40px); */
+    --max-width: 335px;
     --section-margin-bottom: 40px;
   }
   .decorated-zone::before {
