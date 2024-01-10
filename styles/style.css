@@ -448,7 +448,7 @@
   line-height: 82.5%; /* 129.525px */
 }
 
-@media screen and (width <= 768px) {
+@media screen and (width <= 900px) {
   :root {
     /* --max-width: calc(768px - 40px); */
     --max-width: 728px;
@@ -491,7 +491,7 @@
   }
 }
 
-@media screen and (width <= 390px) {
+@media screen and (width <= 500px) {
   :root {
     /* --max-width: calc(375px - 40px); */
     --max-width: 335px;
