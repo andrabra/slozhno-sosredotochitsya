@@ -7,20 +7,19 @@
 
   --bg-color: #000028;
 
-  --title-color: #DB00FF;
-  --font-color: #F1B2CE;
-  --accent-color: #FF0070;
+  --title-color: #db00ff;
+  --font-color: #f1b2ce;
+  --accent-color: #ff0070;
 
-  --main__section-title-color: #FF0070;
+  --main__section-title-color: #ff0070;
 
   --main-font-family: IBM Plex Mono;
-
 
   --max-width: calc(1024px - 40px);
   /* --max-width: calc(768px - 40px); */
   --section-margin-bottom: 60px; /*desktop*/
 
   --mobile-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --desktop-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  --desktop-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   /* Переменные тёмной темы */
 }
