@@ -491,7 +491,7 @@
   }
 }
 
-@media screen and (width <= 375px) {
+@media screen and (width <= 390px) {
   :root {
     /* --max-width: calc(375px - 40px); */
     --max-width: 335px;
