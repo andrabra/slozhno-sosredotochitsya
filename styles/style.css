@@ -234,7 +234,7 @@
 }
 
 .main__section-link {
-  text-shadow: 4px 2px 0px #ff0070;
+  text-shadow: 4px 2px 0px var(--accent-color);
   text-decoration: none;
 }
 
