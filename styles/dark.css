@@ -4,8 +4,6 @@
   переключая тему
 */
 
-
-
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -14,17 +12,15 @@
   background-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
 
-  --title-color: #DB00FF;
-  --font-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --main__section-title-color: #FF0070;
+  --title-color: #db00ff;
+  --font-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --main__section-title-color: #ff0070;
 
-  .header__rec{
+  .header__rec {
     display: block;
   }
 }
-
-
 
 :root.theme_dark {
   /* Дублируем переменные для тёмной темы */
@@ -32,13 +28,10 @@
   --background-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
 
-  --title-color: #DB00FF;
-  --font-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --main__section-title-color: #FF0070;
+  --title-color: #db00ff;
+  --font-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --main__section-title-color: #ff0070;
 }
 
-
-
 /* Остальные стили */
-

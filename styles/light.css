@@ -15,9 +15,9 @@
   --title-color: #ffc2e6;
   --font-color: #353430;
 
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --main__section-title-color: #353430;
-  .header__rec{
+  .header__rec {
     display: none;
   }
 }
@@ -30,7 +30,7 @@
   --title-color: #ffc2e6;
   --font-color: #353430;
   --main__section-title-color: #353430;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
 }
 
 /* Остальные стили */
@@ -44,14 +44,12 @@
     --title-color: #ffc2e6;
     --font-color: #353430;
 
-    --accent-color: #FF8DCB;
+    --accent-color: #ff8dcb;
     --main__section-title-color: #353430;
   }
-  .header__rec{
+  .header__rec {
     display: none;
   }
 }
-
-
 
 /* Остальные стили */
