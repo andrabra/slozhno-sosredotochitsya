@@ -11,7 +11,7 @@
   */
   background-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
-
+  --accent-font-color: var(--bg-color);
   --title-color: #db00ff;
   --font-color: #f1b2ce;
   --accent-color: #ff0070;
@@ -27,7 +27,7 @@
 
   --background-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
-
+  --accent-font-color: var(--bg-color);
   --title-color: #db00ff;
   --font-color: #f1b2ce;
   --accent-color: #ff0070;

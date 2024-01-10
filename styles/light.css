@@ -11,7 +11,7 @@
   */
   --background-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
-
+  --accent-font-color: var(--font-color);
   --title-color: #ffc2e6;
   --font-color: #353430;
 
@@ -34,7 +34,7 @@
   /* Переменные светлой темы */
   --background-image: url("../images/cover-image-light.png");
   --bg-color: #fff1f7;
-
+  --accent-font-color: var(--font-color);
   --title-color: #ffc2e6;
   --font-color: #353430;
   --main__section-title-color: #353430;
@@ -48,7 +48,7 @@
     /* Дублируем переменные светлой темы */
     --background-image: url("../images/cover-image-light.png");
     --bg-color: #fff1f7;
-
+    --accent-font-color: var(--font-color);
     --title-color: #ffc2e6;
     --font-color: #353430;
 

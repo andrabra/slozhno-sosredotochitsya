@@ -11,7 +11,7 @@
   background-size: cover;
   background-attachment: fixed;
 
-  font-family: IBM Plex Mono;
+  font-family: var(--main-font-family);
 }
 
 .header {
@@ -21,7 +21,7 @@
   grid-template-rows: 1fr auto 1fr;
   margin-bottom: var(--section-margin-bottom);
 
-  padding: 20px;
+  /* padding: 20px; съезжает макет!!!!*/
   justify-items: center;
 
   position: relative;
@@ -153,7 +153,9 @@
 
   text-transform: lowercase;
   padding: 0 13px;
-  height: 26px;
+  min-height: 26px;
+
+  cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
@@ -186,10 +188,10 @@
 
 .header__title {
   color: var(--title-color);
-  font-size: var(--desktop-font-size);
+  font-size: var(--font-size);
 
   text-shadow: 4px 4px 0 var(--accent-color);
-  margin-left: -40px;
+  margin-left: -20px;
   justify-self: start;
   line-height: 82.5%;
 }
@@ -206,7 +208,7 @@
   font-weight: 700;
   line-height: 23.4px;
 
-  margin-right: -16px;
+  /* margin-right: -16px; */
 }
 
 .main {
@@ -245,7 +247,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: rgba(0, 0, 40, 1);
+  color: var(--accent-font-color);
 }
 
 .main__section-link {
@@ -255,7 +257,7 @@
 
 .main__section-link:hover {
   /* text-decoration: underline; */
-  border-bottom: 1px solid var(--font-color);
+  border-bottom: 1px solid currentColor;
   margin-bottom: -1px;
 }
 
@@ -272,7 +274,7 @@
 .main__section:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto 1fr;
+  /* grid-template-rows: auto auto 1fr; */
   column-gap: 20px;
   row-gap: 10px;
 }
@@ -458,7 +460,7 @@
     width: 100%;
   }
   .header__title {
-    font-size: var(--mobile-font-size);
+    font-size: var(--font-size);
   }
   .header__theme-menu {
     align-self: center;
@@ -513,7 +515,7 @@
   }
   .header__title {
     margin-left: 0px;
-    font-size: var(--mobile-font-size);
+    font-size: var(--font-size);
   }
   .header__text {
     width: 355px;
