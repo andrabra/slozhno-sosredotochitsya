@@ -27,7 +27,6 @@
 }
 
 @media screen and (width <= 900px){
-
   :root{
   --font-size: var(--mobile-font-size);
   }
