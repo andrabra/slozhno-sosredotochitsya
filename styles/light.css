@@ -19,7 +19,6 @@
   --main__section-title-color: #353430;
 
   --hover-button: rgba(50, 49, 45, 0.4);
-
 }
 
 .page.theme_light .header__rec {
@@ -58,5 +57,3 @@
     display: none;
   }
 }
-
-
