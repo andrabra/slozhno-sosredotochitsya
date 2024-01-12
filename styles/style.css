@@ -135,13 +135,11 @@
   align-self: center;
   justify-self: end;
 
-  font-size: 18px;
   font-style: normal;
   font-weight: 700;
   line-height: 23.4px;
 
   max-width: 491px;
-  width: 100%;
 }
 
 .main {
@@ -174,7 +172,7 @@
 
 .main__section-title {
   color: var(--main__section-title-color);
-  font-size: 18px;
+  font-size: inherit;
 
   font-weight: 700;
 }
@@ -298,7 +296,6 @@
 @media screen and (width <= 900px) {
   .header__text {
     max-width: 364px;
-    width: 100%;
   }
 
   .header__theme-menu {
