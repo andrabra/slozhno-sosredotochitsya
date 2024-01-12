@@ -4,9 +4,7 @@
 */
 :root {
   --background-image: url("../images/cover-image-dark.png");
-
   --bg-color: #000028;
-
   --title-color: #db00ff;
   --font-color: #f1b2ce;
   --accent-color: #ff0070;
@@ -15,23 +13,25 @@
 
   --main-font-family: IBM Plex Mono, sans-serif;
   --hover-button: rgba(255, 0, 112, 0.4);
+
   --max-width: 984px;
 
-  --section-margin-bottom: 60px;
-  --main-section-margin-bottom: 80px;
-  --mobile-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 
   --header-padding: 20px 0px;
 
-  --main-section-margin-bottom: 80px;
-
   --header-footer-margin-bottom: 60px;
+
+  --indent-top: 20px;
+  --indent-right: 0px;
+  --header-rec-indent-right: 30px;
+
+  --main-row-gap: 80px;
 }
 
 @media screen and (width <= 900px) {
   :root {
-    --font-size: var(--mobile-font-size);
+    --font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     --max-width: 728px;
   }
 }
@@ -39,11 +39,16 @@
 @media screen and (width <= 500px) {
   :root {
     --max-width: 335px;
-    --section-margin-bottom: 40px;
+
     --header-padding: 10px;
 
-    --main-section-margin-bottom: 50px;
-
     --header-footer-margin-bottom: 40px;
+
+    --indent-top: 10px;
+    --indent-right: 10px;
+
+    --header-rec-indent-right: 40px;
+
+    --main-row-gap: 50px;
   }
 }
